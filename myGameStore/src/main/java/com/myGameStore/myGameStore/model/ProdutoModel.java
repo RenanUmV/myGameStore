@@ -53,6 +53,14 @@ public class ProdutoModel {
 	public void setPreco(Double preco) {
 		this.preco = preco;
 	}
+
+	public CategoriaModel getCategoria() {
+		return categoria;
+	}
+
+	public void setCategoria(CategoriaModel categoria) {
+		this.categoria = categoria;
+	}
 	
 	
 	
