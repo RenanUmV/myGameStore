@@ -32,7 +32,7 @@ public class CategoriaModel {
 	
 	@OneToMany(mappedBy = "categoria", cascade = CascadeType.ALL)
 	@JsonIgnoreProperties("categoria")
-	private List<ProdutoModel> tb_postagem;
+	private List<ProdutoModel> tb_produto;
 
 	public long getId() {
 		return id;
@@ -59,11 +59,11 @@ public class CategoriaModel {
 	}
 
 	public List<ProdutoModel> getTb_postagem() {
-		return tb_postagem;
+		return tb_produto;
 	}
 
 	public void setTb_postagem(List<ProdutoModel> tb_postagem) {
-		this.tb_postagem = tb_postagem;
+		this.tb_produto = tb_postagem;
 	}
 	
 }
