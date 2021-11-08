@@ -57,5 +57,13 @@ public class CategoriaModel {
 	public void setFaixaEtaria(String faixaEtaria) {
 		this.faixaEtaria = faixaEtaria;
 	}
+
+	public List<ProdutoModel> getTb_postagem() {
+		return tb_postagem;
+	}
+
+	public void setTb_postagem(List<ProdutoModel> tb_postagem) {
+		this.tb_postagem = tb_postagem;
+	}
 	
 }
